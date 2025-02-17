@@ -1,0 +1,9 @@
+{
+  "kind": "push",
+  "pattern": "main",
+  "id": 1,
+  "users": [
+    {
+      "username": "firstuser123"
+    }]
+}

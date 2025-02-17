@@ -1,0 +1,7 @@
+{
+  "is_private": true,
+  "name": "My Repo",
+  "project": {
+      "key": "my_project1"
+  }
+}
