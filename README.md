@@ -37,9 +37,14 @@ The application connects to Bitbucket and, through a CLI, allows you to:
     CLIENT_SECRET=your_bitbucket_client_secret
     ```
 
-    Due to some restrictions on certain Bitbucket APIs (https://jira.atlassian.com/browse/BCLOUD-22896), a client password needs to be created:
+    Due to some restrictions on certain Bitbucket APIs (https://jira.atlassian.com/browse/BCLOUD-22896), a client password needs to be created as well:
 
     ```bash
     BITBUCKET_USERNAME=your_bitbucket_username
     BITBUCKET_PASSWORD=your_bitbucket_password
     ```
+
+4. **Run the application**
+
+   ```bash
+   python bitbucket_cli.py
