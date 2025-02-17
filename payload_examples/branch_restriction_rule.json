@@ -1,9 +1,9 @@
 {
-  "kind": "push",
-  "pattern": "main",
+  "kind": "<string>",
+  "pattern": "<string>",
   "id": 1,
   "users": [
     {
-      "username": "firstuser123"
+      "username": "<string>"
     }]
 }

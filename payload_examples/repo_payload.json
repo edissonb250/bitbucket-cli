@@ -1,7 +1,7 @@
 {
   "is_private": true,
-  "name": "My Repo",
+  "name": "<string>",
   "project": {
-      "key": "my_project1"
+      "key": "<string>"
   }
 }
