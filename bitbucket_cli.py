@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
 import click
 import os
 import oauth_authentication
 import requests
 import json
+
+load_dotenv()
 
 BITBUCKET_BASE_URL="https://api.bitbucket.org/2.0"
 ##########Currently it is not possible to access the permission config API using Workspace Access Tokens (WAT)

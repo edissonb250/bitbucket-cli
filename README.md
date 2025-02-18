@@ -46,5 +46,23 @@ The application connects to Bitbucket and, through a CLI, allows you to:
 
 4. **Run the application**
 
+   Creating a project:
    ```bash
-   python bitbucket_cli.py
+   python bitbucket_cli.py create-project <workspace> .\payload_examples\project_payload.json
+   ```
+   Creating a repository:
+   ```bash
+   python python bitbucket_cli.py create-repository <workspace> <repo_slug> .\payload_examples\repo_payload.json
+   ```
+   Add a user to the repo:
+   ```bash
+   python bitbucket_cli.py add-user <workspace> <repo_slug> <selected_user_id> .\payload_examples\user_add_payload.json
+   ```
+   Remove user from the repo:
+   ```bash
+   python bitbucket_cli.py del-user <workspace> <repo_slug> <selected_user_id>
+   ```
+   Branch restriction rule:
+   ```bash
+   python bitbucket_cli.py del-user <workspace> <repo_slug> <selected_user_id>
+   ```

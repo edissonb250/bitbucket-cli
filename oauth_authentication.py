@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
 import os
 import webbrowser
 import threading
 import requests
 from flask import Flask, request
+
+load_dotenv()
 
 app=Flask(__name__)
 
