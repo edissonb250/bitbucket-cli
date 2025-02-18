@@ -64,5 +64,5 @@ The application connects to Bitbucket and, through a CLI, allows you to:
    ```
    Branch restriction rule:
    ```bash
-   python bitbucket_cli.py del-user <workspace> <repo_slug> <selected_user_id>
+   python bitbucket_cli.py branch-restriction-rule <workspace> <repo_slug> .\payload_examples\branch_restriction_rule.json
    ```
